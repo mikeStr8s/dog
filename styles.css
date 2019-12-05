@@ -1,4 +1,4 @@
-#box {
+.dog {
     -webkit-transition: all 500ms;
     -moz-transition: all 500ms;
     -o-transition: all 500ms;
@@ -11,8 +11,15 @@
     width: 50vw;
     height: 50vh;
     margin: 24vh 24vw;
-    background: url('https://arsgrafik.s3.amazonaws.com/uploads/2009/12/colorful-spectrum-background.jpg');
+    background: url('./dog.jpeg');
     background-size: 50vw 50vh;
-  }
+}
   
-  #box:after { position: absolute; content: ''; width: 30vw; height: 50vh; margin: 0 -30vw; box-shadow: 0 24vh 24vw #000; z-index: -100; }
+.dog:after { 
+    position: absolute;
+    content: '';
+    width: 30vw;
+    height: 50vh;
+    margin: 0 -30vw;
+    z-index: -100;
+}
