@@ -1,0 +1,18 @@
+#box {
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: sans-serif;
+    font-size: 15vh;
+    text-align: center;
+    line-height: 50vh;
+    width: 50vw;
+    height: 50vh;
+    margin: 24vh 24vw;
+    background: url('https://arsgrafik.s3.amazonaws.com/uploads/2009/12/colorful-spectrum-background.jpg');
+    background-size: 50vw 50vh;
+  }
+  
+  #box:after { position: absolute; content: ''; width: 30vw; height: 50vh; margin: 0 -30vw; box-shadow: 0 24vh 24vw #000; z-index: -100; }
