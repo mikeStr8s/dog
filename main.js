@@ -1,4 +1,6 @@
 setInterval(function(){randomTransform(document.querySelector(".dog"))}, 2000);
+setInterval(function(){randomTransform(document.querySelector(".dog2"))}, 2000);
+setInterval(function(){randomTransform(document.querySelector(".dog3"))}, 2000);
 
 // set a random css transform on the (el)ement
 function randomTransform(el) {
